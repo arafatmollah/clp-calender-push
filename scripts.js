@@ -56,7 +56,7 @@ function showCalendar(month, year) {
                 let cellText = document.createTextNode("");
                 cell.appendChild(cellText);
                 row.appendChild(cell);
-                console.log('arafat')
+                console.log('Shuvo')
             }
             else if (date > daysInMonth) {
                 break;
