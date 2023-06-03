@@ -56,6 +56,7 @@ function showCalendar(month, year) {
                 let cellText = document.createTextNode("");
                 cell.appendChild(cellText);
                 row.appendChild(cell);
+                console.log('arafat')
             }
             else if (date > daysInMonth) {
                 break;
